@@ -94,6 +94,9 @@ h2 {
 #header {
     background-color: black;
     height: 60px;
+    position:fixed;
+    width: 100vw;
+    top:0px;
 }
 
 #headerWrapper {
@@ -150,11 +153,13 @@ h2 {
 }
 
 .current {
-   height: 78px;
+   height: 95px;
    background-image:url('../images/triangle.gif');
    background-repeat:no-repeat;
    background-position:center;
    overflow: hidden;
+   background-size: 12px 24px;
+   
 }
 
 .bold {
@@ -193,6 +198,16 @@ h2 {
 }
 
 #caption {
+    padding-top: 60px;
+    margin: 30px auto;
+    width: 800px;
+    color: #e46d0b;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Arial, Verdana, Sans-Serif;
+}
+
+#captionFeatures {
     margin: 30px auto;
     width: 800px;
     color: #e46d0b;
@@ -204,6 +219,12 @@ h2 {
 #contentHolder {
     margin: 30px auto;
     width: 800px;
+}
+
+#contentHolderFeatures {
+    margin: 30px auto;
+    width: 800px;
+    padding-top: 50px;
 }
 
 h2.subcaption {
